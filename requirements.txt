@@ -1,0 +1,13 @@
+# Rofpalys - optional Python packages. Everything also works without them, but with less.
+# On Termux prefer the pkg version where it is noted (pip has to compile numpy there: slow).
+
+numpy           # Termux: pkg install python-numpy   -> the full voice detector (lyrics follow the recording); without it the lyrics keep the file's times
+syncedlyrics    # Musixmatch lyrics (the standard)    -> rofpalys lyrics providers install   (it installs this one for you)
+
+# Only needed for  rofpalys lyrics source all  (other lyric downloaders):
+# lrcdl         # needs Python 3.11+
+# lyriq
+# librelyrics   # needs one search plugin
+
+# Optional: faster cover scaling
+# Pillow
